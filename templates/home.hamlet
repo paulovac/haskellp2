@@ -1,0 +1,24 @@
+<img src=@{StaticR img_5_jpg}>
+
+<h1>
+    Queen
+    
+    <ul>
+        <li>
+            <a href=@{Pagina1}>
+                História
+        <li>
+            <a href=@{Pagina2}>
+                Membros
+        <li>
+            <a href=@{Pagina3}>
+                Discografia
+        <li>
+            <a href=@{Pagina4}>
+                Mídia
+        <li>
+            <a href=@{Pagina5}>
+                Sobre o site
+
+<button onclick="wip()">
+    OK

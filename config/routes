@@ -1,11 +1,11 @@
--- By default this file is used by `parseRoutesFile` in Foundation.hs
--- Syntax for this file here: https://www.yesodweb.com/book/routing-and-handlers
-
 /static StaticR Static appStatic
 
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET POST
-
-/comments CommentR POST
+/ HomeR GET 
+/p1 Pagina1 GET
+/p2 Pagina2 GET
+/p3 Pagina3 GET
+/p4 Pagina4 GET
+/p5 Pagina5 GET

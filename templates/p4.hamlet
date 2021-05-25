@@ -1,0 +1,11 @@
+<h1>
+    Fotos
+    
+   <p><img src=@{StaticR img_1_jpg}>
+   <p><img src=@{StaticR img_2_jpg}>
+   <p><img src=@{StaticR img_3_jpg}>
+   <p><img src=@{StaticR img_4_jpg}>
+   <p><img src=@{StaticR img_6_jpg}>
+   
+<button onclick="wip()">
+    OK
