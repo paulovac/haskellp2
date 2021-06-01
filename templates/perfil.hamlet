@@ -1,0 +1,8 @@
+<h1>
+    PÁGINA DE #{clienteNome cliente}
+            
+<h2>
+    EMAIL: #{clienteEmail cliente}
+            
+<h2>
+    CPF: #{clienteCpf cliente}

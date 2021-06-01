@@ -9,5 +9,6 @@
 
     <p>A banda já vendeu mais de 300 milhões de cópias de seus álbuns no mundo inteiro[3] e foi uma das mais populares bandas britânicas da décadas de 70 e 80, apresentando-se com magníficas produções em seus concertos e nos videoclipes de suas músicas.
 
-<button onclick="wip()">
-    OK
+<ul>
+    <a href=@{HomeR}>
+        Voltar

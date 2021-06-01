@@ -4,8 +4,33 @@
 /robots.txt RobotsR GET
 
 / HomeR GET 
-/p1 Pagina1 GET
-/p2 Pagina2 GET
-/p3 Pagina3 GET
-/p4 Pagina4 GET
-/p5 Pagina5 GET
+/p1 Pagina1R GET
+/p2 Pagina2R GET
+/p3 Pagina3R GET
+/p4 Pagina4R GET
+/p5 Pagina5R GET
+
+/cliente ClienteR GET POST
+/cliente/perfil/#ClienteId PerfilR GET
+/clientes ListaCliR GET
+/cliente/apagar/#ClienteId ApagarCliR POST
+/cliente/editar/#ClienteId EditarCliR GET POST
+
+/produto ProdutoR GET POST
+/produto/perfil/#ProdutoId PerfilProdR GET
+/produtos ListaProR GET
+/produto/apagar/#ProdutoId ApagarProR POST
+/produto/editar/#ProdutoId EditarProR GET POST
+
+/venda VendaR GET POST
+/venda/perfil/#VendaId PerfilVendR GET
+/vendas ListaVendR GET
+/venda/apagar/#VendaId ApagarVendR POST
+/venda/editar/#VendaId EditarVendR GET POST
+
+/usuario UsuarioR GET POST
+
+/login AutR GET POST
+/logout SairR POST
+
+/admin AdminR GET

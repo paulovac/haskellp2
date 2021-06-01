@@ -1,0 +1,31 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                CLIENTE
+            <th>
+                PRODUTO
+            <th>
+                DATA
+            <th>
+                VALOR
+            <th>
+            
+    <tbody>
+        $forall Entity vid venda <- vendas
+            <tr>
+                <td>
+                    #{vendaCliente venda}
+                <td>
+                    #{vendaProduto venda}
+                <td>
+                    #{vendaData venda}
+                <td>
+                    #{vendaValor venda}
+                <td>
+                    <form method=post action=@{ApagarVendR vid}>
+                        <input type="submit" value="X">
+
+<ul>
+    <a href=@{HomeR}>
+        Voltar

@@ -20,5 +20,6 @@
 <h4>
     <p>É um músico britânico aposentado, mais conhecido por ter sido o baixista e um dos compositores da banda de rock Queen. Foi o último dos quatro membros a entrar para o grupo em 1971 e também o mais jovem, tendo apenas 19 anos quando foi efetivado. Deacon é o autor de um grande número de sucessos do Queen, incluindo os singles "You're My Best Friend", "Spread Your Wings", "Back Chat", "I Want to Break Free" e o maior sucesso de todos, o single mais vendido da banda nos Estados Unidos, "Another One Bites the Dust", bem como outras faixas de praticamente todos os discos do Queen.[1] Estudante de eletrônica no King's College de Londres, fora recrutado como baixista pelo Queen, em fevereiro de 1971, depois de conhecer em uma discoteca, Brian May e Roger Taylor.
     
-<button onclick="wip()">
-    OK
+<ul>
+    <a href=@{HomeR}>
+        Voltar

@@ -1,24 +1,43 @@
 <img src=@{StaticR img_5_jpg}>
 
 <h1>
-    Queen
+    COMÉRCIO DO PRODUTOS LJP
     
     <ul>
         <li>
-            <a href=@{Pagina1}>
-                História
+            <a href=@{ListaCliR}>
+                Consulta de Clientes
         <li>
-            <a href=@{Pagina2}>
-                Membros
+            <a href=@{ListaProR}>
+                Consulta de Produtos
         <li>
-            <a href=@{Pagina3}>
-                Discografia
-        <li>
-            <a href=@{Pagina4}>
-                Mídia
-        <li>
-            <a href=@{Pagina5}>
-                Sobre o site
+            <a href=@{ListaVendR}>
+                Consulta de Vendas
+                
+        $maybe email <- usuario
+            <li>
+                <a href=@{ClienteR}>
+                    Cadastro de Cliente
+            <li>
+                <a href=@{ProdutoR}>
+                    Cadastro de Produto
+            <li>
+                <a href=@{VendaR}>
+                    Cadastro de Venda
+            <li>
+                <form action=@{SairR} method=post>
+                    #{email}: <input type="submit" value="Sair">
+        
+        $nothing
+            <li>
+                <a href=@{UsuarioR}>
+                    Cadastre-se
+            <li>
+                <a href=@{AutR}>
+                    Entrar
+            <li>
+                <a href=@{Pagina5R}>
+                    Sobre o site
 
 <button onclick="wip()">
     OK

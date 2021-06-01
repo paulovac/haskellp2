@@ -7,5 +7,6 @@
    <p><img src=@{StaticR img_4_jpg}>
    <p><img src=@{StaticR img_6_jpg}>
    
-<button onclick="wip()">
-    OK
+<ul>
+    <a href=@{HomeR}>
+        Voltar

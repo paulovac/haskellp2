@@ -1,0 +1,11 @@
+<h1>
+    PÁGINA DE #{produtoNome produto}
+            
+<h2>
+    CÓDIGO: #{produtoCod produto}
+            
+<h2>
+    PESO: #{produtoPeso produto}
+
+<h2>
+    VOLUME: #{produtoVolume produto}

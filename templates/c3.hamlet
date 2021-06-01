@@ -1,0 +1,14 @@
+$maybe mensa <- msg
+    <div>
+        ^{mensa}
+
+<h1>
+    CADASTRO DE VENDA
+
+<form method=post action=@{VendaR}>
+    ^{widget}
+    <input type="submit" value="Cadastrar">
+
+<ul>
+    <a href=@{HomeR}>
+        Voltar

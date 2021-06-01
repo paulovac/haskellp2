@@ -8,6 +8,7 @@
             Letícia Fontenelle
         <li>
             Paulo Cid
-        
-<button onclick="wip()">
-    OK
+            
+<ul>
+    <a href=@{HomeR}>
+        Voltar

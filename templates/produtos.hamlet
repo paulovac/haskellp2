@@ -1,0 +1,31 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                CÓDIGO
+            <th>
+                PESO
+            <th>
+                VOLUME
+            <th>
+            
+    <tbody>
+        $forall Entity pid produto <- produtos
+            <tr>
+                <td>
+                    #{produtoNome produto}
+                <td>
+                    #{produtoCod produto}
+                <td>
+                    #{produtoPeso produto}
+                <td>
+                    #{produtoVolume produto}
+                <td>
+                    <form method=post action=@{ApagarProR pid}>
+                        <input type="submit" value="X">
+
+<ul>
+    <a href=@{HomeR}>
+        Voltar

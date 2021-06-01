@@ -1,17 +1,25 @@
-User
-    ident Text
-    password Text Maybe
-    UniqueUser ident
-    deriving Typeable
-Email
+Cliente
+    nome Text
     email Text
-    userId UserId Maybe
-    verkey Text Maybe
-    UniqueEmail email
-Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived.
-    message Text
-    userId UserId Maybe
-    deriving Eq
+    cpf Text
     deriving Show
 
- -- By default this file is used in Model.hs (which is imported by Foundation.hs)
+Produto
+    nome Text
+    cod Text
+    peso Int
+    volume Int
+    deriving Show
+
+Venda
+    cliente Text
+    produto Text
+    data Int
+    valor Int
+    deriving Show
+
+Usuario
+    email Text
+    senha Text
+    UniqueEmail email
+    deriving Show

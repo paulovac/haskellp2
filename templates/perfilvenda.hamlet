@@ -1,0 +1,11 @@
+<h1>
+    PÁGINA DE #{vendaCliente venda}
+            
+<h2>
+    PRODUTO: #{vendaProduto venda}
+            
+<h2>
+    DATA: #{vendaData venda}
+
+<h2>
+    VALOR: #{vendaValor venda}
