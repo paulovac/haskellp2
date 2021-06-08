@@ -1,7 +1,7 @@
 <img src=@{StaticR img_5_jpg}>
 
 <h1>
-    COMÉRCIO DO PRODUTOS LJP
+    COMÉRCIO DE PRODUTOS LJP
     
     <ul>
         <li>
@@ -36,8 +36,8 @@
                 <a href=@{AutR}>
                     Entrar
             <li>
-                <a href=@{Pagina5R}>
+                <a href=@{SobreR}>
                     Sobre o site
 
 <button onclick="wip()">
-    OK
+    WIP

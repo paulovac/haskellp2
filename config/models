@@ -4,18 +4,25 @@ Cliente
     cpf Text
     deriving Show
 
-Produto
-    nome Text
-    cod Text
-    peso Int
-    volume Int
-    deriving Show
-
 Venda
     cliente Text
     produto Text
     data Int
     valor Int
+    deriving Show
+
+Produto
+    nome Text
+    cod Text
+    peso Double
+    preco Double
+    deriving Show
+
+Carrinho
+    cliid ClienteId
+    prodid ProdutoId
+    dia Day
+    qt Int
     deriving Show
 
 Usuario

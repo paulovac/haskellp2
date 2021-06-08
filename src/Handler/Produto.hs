@@ -13,8 +13,8 @@ formProduto :: Maybe Produto -> Form Produto
 formProduto mc = renderDivs $ Produto
     <$> areq textField "Nome: " (fmap produtoNome mc)
     <*> areq textField "Código: " (fmap produtoCod mc)
-    <*> areq intField  "Peso: " (fmap produtoPeso mc)
-    <*> areq intField  "Volume: " (fmap produtoVolume mc)
+    <*> areq doubleField  "Peso: " (fmap produtoPeso mc)
+    <*> areq doubleField  "Preço: " (fmap produtoPreco mc)
 
 getProdutoR :: Handler Html
 getProdutoR = do

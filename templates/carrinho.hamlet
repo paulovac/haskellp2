@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                QUANTIDADE
+            <th>
+    
+    <tbody>
+        $forall Entity cid produto <- carrinho
+            <tr>
+                <td>
+                    #{carrinhoQt carrinho}
+
+<ul>
+    <a href=@{HomeR}>
+        Voltar

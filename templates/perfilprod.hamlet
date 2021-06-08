@@ -8,4 +8,4 @@
     PESO: #{produtoPeso produto}
 
 <h2>
-    VOLUME: #{produtoVolume produto}
+    PREÇO: #{produtoPreco produto}

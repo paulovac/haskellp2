@@ -1,0 +1,14 @@
+<h3>
+    Site elaborado pelos alunos:
+
+    <ul>
+        <li>
+            José Petri
+        <li>
+            Letícia Fontenelle
+        <li>
+            Paulo Cid
+            
+<ul>
+    <a href=@{HomeR}>
+        Voltar

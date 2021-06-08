@@ -4,11 +4,7 @@
 /robots.txt RobotsR GET
 
 / HomeR GET 
-/p1 Pagina1R GET
-/p2 Pagina2R GET
-/p3 Pagina3R GET
-/p4 Pagina4R GET
-/p5 Pagina5R GET
+/sobre SobreR GET
 
 /cliente ClienteR GET POST
 /cliente/perfil/#ClienteId PerfilR GET
@@ -34,3 +30,7 @@
 /logout SairR POST
 
 /admin AdminR GET
+
+/compra/#ClienteId CompraR GET POST
+
+/carrinho/#ClienteId CarrinhoR GET

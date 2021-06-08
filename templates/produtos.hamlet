@@ -8,7 +8,7 @@
             <th>
                 PESO
             <th>
-                VOLUME
+                PREÇO
             <th>
             
     <tbody>
@@ -21,7 +21,7 @@
                 <td>
                     #{produtoPeso produto}
                 <td>
-                    #{produtoVolume produto}
+                    #{produtoPreco produto}
                 <td>
                     <form method=post action=@{ApagarProR pid}>
                         <input type="submit" value="X">

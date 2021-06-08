@@ -3,7 +3,7 @@ $maybe mensa <- msg
         ^{mensa}
 
 <h1>
-    CADASTRO DE VENDA
+    CADASTRO DE VENDAS
 
 <form method=post action=@{VendaR}>
     ^{widget}
